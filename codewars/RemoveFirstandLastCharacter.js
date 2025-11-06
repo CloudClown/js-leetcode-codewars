@@ -31,3 +31,5 @@ function removeChar(str){
 
 
 console.log(removeChar('xyz'))
+
+// first and last string pop
