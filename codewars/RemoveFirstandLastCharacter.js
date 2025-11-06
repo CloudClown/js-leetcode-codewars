@@ -32,4 +32,4 @@ function removeChar(str){
 
 console.log(removeChar('xyz'))
 
-// first and last string pop with the help of loop and condition
+// first and last string pop with the help of loop and condition // acc removed
