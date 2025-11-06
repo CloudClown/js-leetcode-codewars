@@ -8,6 +8,8 @@ function removeChar(str){
 
   const newArr = [];
 
+  // here we poping the element with the help of if condition
+  // the initial and the last index will be pop because of the condition
   for (let x = 0; x < strArr.length; x++) {
     if (x !== 0 && x !== strArr.length - 1) {
       newArr.push(strArr[x]);
@@ -28,4 +30,4 @@ function removeChar(str){
 // }
 
 
-console.log(removeChar('eloquent'))
+console.log(removeChar('xyz'))
